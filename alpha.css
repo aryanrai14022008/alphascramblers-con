@@ -1,10 +1,12 @@
 .navbar{
     height: 15vh;
-    width: 100vw;
+    width: 100%;
     background-color: rgb(230, 224, 224);
     display: flex;
     justify-content: space-between;
      font-family: "Rowdies", sans-serif;
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
 
 }
 .logname{
