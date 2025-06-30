@@ -36,4 +36,5 @@
     width: 65%;
     padding-left: 30%;
     padding-right: 1%;
+    flex-wrap: nowrap;
 }
