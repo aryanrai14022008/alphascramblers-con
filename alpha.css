@@ -1,3 +1,5 @@
+
+
 *{
     margin: 0;
     padding: 0;
@@ -38,3 +40,29 @@
     padding-right: 1%;
     flex-wrap: nowrap;
 }
+@media screen and (min-width: 700px) and (max-width: 1000px){
+    .rightnav{
+    display: flex;
+    /* justify-content: ; */
+    align-items: center;
+    width: 80vw;
+    padding-left: 10%;
+    padding-right: 0;
+    flex-wrap: nowrap;
+    /* background-color: red; */
+    gap: 2px;
+}
+.navbar{
+    height: 12vh;
+    width: 100%;
+    background-color: rgb(230, 224, 224);
+    display: flex;
+    /* justify-content: ; */
+    align-items: center;
+     font-family: "Rowdies", sans-serif;
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+
+
+
+}}
