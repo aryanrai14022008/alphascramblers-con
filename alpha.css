@@ -7,8 +7,6 @@
      font-family: "Rowdies", sans-serif;
      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
      margin: 0;
-
-
 }
 .logname{
     padding-top: 15%;
@@ -20,13 +18,11 @@
 .image{
     display: flex;
     height: 100%;
-    width:20vw;
+    width: 20vw;
 }
 .img{
     height: 100%;
     width: 30%;
-    border: solid white;
-    border-radius: 20%;
 }
 .nowrap{
     white-space: nowrap;
