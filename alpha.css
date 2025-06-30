@@ -1,5 +1,3 @@
-
-
 *{
     margin: 0;
     padding: 0;
@@ -18,6 +16,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 1.1rem;
 }
 .image{
     display: flex;
@@ -39,30 +38,27 @@
     padding-left: 30%;
     padding-right: 1%;
     flex-wrap: nowrap;
+    font-size: 0.8rem;
 }
 @media screen and (min-width: 700px) and (max-width: 1000px){
     .rightnav{
     display: flex;
-    /* justify-content: ; */
     align-items: center;
-    width: 80%;
-    padding-left: 10%;
+    width: 65%;
+    padding-left: 30%;
     padding-right: 1%;
     flex-wrap: nowrap;
-    /* background-color: red; */
-    gap: 2px;
+    font-size: 0.7rem;
+}
+.logname{
+    font-size: 1rem;
 }
 .navbar{
     height: 12vh;
     width: 100%;
     background-color: rgb(230, 224, 224);
     display: flex;
-    /* justify-content: ; */
     align-items: center;
      font-family: "Rowdies", sans-serif;
      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-
-
-
-
 }}
