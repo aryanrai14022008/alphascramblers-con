@@ -43,6 +43,16 @@
 .navcon,.navcon-ele{
     display:none;
 }
+.home1,.login1,.about1,.help1{
+    padding: 2%;
+    margin: 0.5%;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    font-family: "Rowdies", sans-serif;
+    font-size: 0.7rem;
+}
 @media screen and (min-width: 700px) and (max-width: 1000px){
     .rightnav{
     display: flex;
@@ -83,21 +93,17 @@
         padding-left: 58%;
         padding-right: 1%;
     }
-    .navcon-ele{
+    .navcon-ele-new{
         display: flex;
         width: 100%;
         flex-direction: column;
         background-color: white;
         position: fixed;
+        animation-name: navconele;
+        animation-duration: 2s;
     }
-    .home1,.login1,.about1,.help1{
-        padding: 2%;
-        margin: 0.5%;
-        background-color: white;
-        border: 1px solid white;
-        border-radius: 10px;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-        font-family: "Rowdies", sans-serif;
-        font-size: 0.7rem;
-    }
+}
+@keyframes navconele{
+    0%{padding-left:100%}
+    100%{padding-left:0%}
 }
