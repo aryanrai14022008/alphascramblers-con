@@ -4,44 +4,36 @@
 }
 .navbar{
     height: 12vh;
-    width: 100vw;
+    width: 100%;
     background-color: rgb(230, 224, 224);
     display: flex;
     justify-content: space-between;
     align-items: center;
      font-family: "Rowdies", sans-serif;
      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-     margin: 0;
 }
 .logname{
-    padding-top: 15%;
-    padding-bottom: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
-    white-space: nowrap;
 }
 .image{
     display: flex;
     height: 100%;
-    width: 20vw;
+    width: 35%;
 }
 .img{
     height: 100%;
     width: 30%;
 }
-.nowrap{
-    white-space: nowrap;
+.home,.login,.help,.about:hover{
+    cursor:pointer;
 }
 .rightnav{
     display: flex;
-    gap: 40%;
-    padding-top: 3%;
-    font-size: 80%;
-    padding-right: 30%;
-    font-weight: 500;
-    padding-bottom: 3%;
-}
-.nowrap:hover{
-    cursor:pointer;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;
+    padding-left: 30%;
+    padding-right: 1%;
 }
