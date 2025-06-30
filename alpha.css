@@ -45,9 +45,9 @@
     display: flex;
     /* justify-content: ; */
     align-items: center;
-    width: 80vw;
+    width: 80%;
     padding-left: 10%;
-    padding-right: 0;
+    padding-right: 1%;
     flex-wrap: nowrap;
     /* background-color: red; */
     gap: 2px;
