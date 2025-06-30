@@ -1,0 +1,43 @@
+.navbar{
+    height: 15vh;
+    width: 100vw;
+    background-color: rgb(230, 224, 224);
+    display: flex;
+    justify-content: space-between;
+     font-family: "Rowdies", sans-serif;
+
+}
+.logname{
+    padding-top: 15%;
+    padding-bottom: 15%;
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+
+}
+
+
+.image{
+    display: flex;
+    height: 100%;
+    width:20vw;
+}
+.img{
+    height: 100%;
+    width: 30%;
+    border: solid white;
+    border-radius: 20%;
+}
+.nowrap{
+    white-space: nowrap;
+}
+.rightnav{
+    display: flex;
+    
+    gap: 40%;
+    padding-top: 3%;
+    font-size: 80%;
+    padding-right: 30%;
+    font-weight: 500;
+    padding-bottom: 3%;
+}
