@@ -42,3 +42,6 @@
     font-weight: 500;
     padding-bottom: 3%;
 }
+.nowrap:hover{
+    cursor:pointer;
+}
