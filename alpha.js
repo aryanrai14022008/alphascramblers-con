@@ -13,3 +13,21 @@ else{
     menu.classList.add("navcon-ele");
 }
 })
+const slides = document.querySelectorAll(".slide");
+const slider = document.querySelector(".slider");
+let currentSlide = 0;
+
+function showSlide(index) {
+  slider.style.transform = `translateX(-${index * 100}%)`;
+}
+
+
+setInterval(() => {
+  showSlide(currentSlide);
+  currentSlide++;
+
+ 
+  if (currentSlide === slides.length) {
+    currentSlide = 0;
+  }
+}, 3000);

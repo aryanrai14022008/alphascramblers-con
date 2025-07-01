@@ -2,6 +2,16 @@
     margin: 0;
     padding: 0;
 }
+.slider{
+    display: flex;
+    width: 300%; 
+    height: 90vh;
+    /* overflow: hidden; */
+    transition: all 10s ease-in-out;
+}
+.slide{
+    width: 100%;
+}
 .navbar{
     height: 12vh;
     width: 100%;
@@ -53,12 +63,12 @@
     font-family: "Rowdies", sans-serif;
     font-size: 0.7rem;
 }
-.banner{
+.banner1,.banner2,.banner3{
     background: linear-gradient(90deg, #1693A1 30%, #2CA8B5 49%, #26CCDE 100%);
     height: 60%;
     width: 100%;
     display: flex;
-    position: absolute;
+    
 }
 .banimg{
     width: 54.4%;
