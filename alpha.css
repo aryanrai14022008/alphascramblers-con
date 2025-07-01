@@ -55,10 +55,19 @@
 }
 .banner{
     background: linear-gradient(90deg, #1693A1 30%, #2CA8B5 49%, #26CCDE 100%);
-    height: 45%;
+    height: 65%;
     width: 100%;
     display: flex;
     position: absolute;
+}
+.image{
+    
+    
+   
+}
+.banimg{
+    padding-left: 50%;
+   
 }
 .text{
     display: flex;
