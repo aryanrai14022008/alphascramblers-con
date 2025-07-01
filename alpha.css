@@ -94,12 +94,10 @@
     display: flex;
     text-align: center;
     justify-content: center;
-    color: white;s
+    color: white;
     height: 5%;
     width: 35%;
-    background-color: #00555B;
-    
-    
+    background-color: #00555B;   
 }
 
 @media screen and (min-width: 700px) and (max-width: 1000px){
