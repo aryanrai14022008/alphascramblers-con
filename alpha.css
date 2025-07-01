@@ -62,11 +62,14 @@
 }
 .banimg{
     width: 54.4%;
+    position: relative;
 }
 .banimg1{
     width: 83.27%;
     padding-left: 16.77%;
     padding-top: 2.5%;
+    position: absolute;
+    bottom: 0;
 }
 .text{
     display: flex;
