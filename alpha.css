@@ -80,7 +80,6 @@
     font-family: "Rowdies", sans-serif;
     white-space: nowrap;
 }
-
 @media screen and (min-width: 700px) and (max-width: 1000px){
     .rightnav{
     display: flex;
