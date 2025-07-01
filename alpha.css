@@ -55,11 +55,10 @@
 }
 .banner{
     background: linear-gradient(90deg, #62979b 0%, #22d3ee 100%);
-    height: 50vh;
-    width: 100vw;
+    height: 45%;
+    width: 100%;
     display: flex;
     position: absolute;
-   
 }
 .text{
     padding-bottom: 50vh;
@@ -73,11 +72,7 @@
 }
 .headtext{
     color: white;
-    
 }
-
-
-
 .head{
     font-size: 2em;
     color: whitesmoke;
@@ -99,7 +94,6 @@
     width: 35%;
     background-color: #00555B;   
 }
-
 @media screen and (min-width: 700px) and (max-width: 1000px){
     .rightnav{
     display: flex;
