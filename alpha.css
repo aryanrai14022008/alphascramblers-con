@@ -54,8 +54,17 @@
     font-size: 0.7rem;
 }
 .banner{
-    background: linear-gradient(90deg, #0f9ba9 0%, #22d3ee 100%);
+    background: linear-gradient(90deg, #62979b 0%, #22d3ee 100%);
     height: 50vh;
+    display: flex;
+}
+.head{
+    font-size: 2em;
+    color: whitesmoke;
+    font-family: "Rowdies", sans-serif;
+    padding-top: 30%;
+    padding-left: 10%;
+    white-space: nowrap;
 }
 
 @media screen and (min-width: 700px) and (max-width: 1000px){
