@@ -2,15 +2,10 @@
     margin: 0;
     padding: 0;
 }
-.slider{
+.banner{
     display: flex;
-    width: 300%; 
-    height: 90vh;
-    /* overflow: hidden; */
-    transition: all 10s ease-in-out;
-}
-.slide{
-    width: 100%;
+    width: 400%;
+    transition: transform 10s ease-in-out;
 }
 .navbar{
     height: 12vh;
@@ -68,7 +63,7 @@
     height: 60%;
     width: 100%;
     display: flex;
-    
+    flex-shrink: 0; 
 }
 .banimg{
     width: 54.4%;
@@ -112,6 +107,11 @@
     width: 75%;  
     font-size: 1.3em;
     font-family: "Baloo Chettan 2", sans-serif;
+}
+.banner-wrapper{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
 }
 @media screen and (min-width: 700px) and (max-width: 1000px){
     .rightnav{
