@@ -2,12 +2,17 @@
     margin: 0;
     padding: 0;
 }
+main{
+    margin-top: 12vh;
+}
 .banner{
     display: flex;
-    width: 400%;
-    transition: transform 10s ease-in-out;
+    width: 500vw;
+    transition: transform 1.5s ease-in-out;
 }
 .navbar{
+    top: 0;
+    left: 0;
     height: 12vh;
     width: 100%;
     background-color: rgb(230, 224, 224);
@@ -16,6 +21,7 @@
     align-items: center;
     font-family: "Rowdies", sans-serif;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: fixed;
 }
 .logname{
     display: flex;
@@ -32,7 +38,7 @@
     height: 100%;
     width: 30%;
 }
-.home,.login,.help,.about:hover{
+.home,.login,.help,.about,.explorebut:hover{
     cursor:pointer;
 }
 .rightnav{
@@ -58,12 +64,12 @@
     font-family: "Rowdies", sans-serif;
     font-size: 0.7rem;
 }
-.banner1,.banner2,.banner3{
+.banner1,.banner2,.banner3,.banner4{
     background: linear-gradient(90deg, #1693A1 30%, #2CA8B5 49%, #26CCDE 100%);
-    height: 60%;
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-shrink: 0; 
+    min-height: 60vh;
 }
 .banimg{
     width: 54.4%;
@@ -109,7 +115,7 @@
     font-family: "Baloo Chettan 2", sans-serif;
 }
 .banner-wrapper{
-    width: 100%;
+    width: 100vw;
     position: relative;
     overflow: hidden;
 }
