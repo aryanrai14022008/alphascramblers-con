@@ -13,7 +13,6 @@ else{
     menu.classList.add("navcon-ele");
 }
 })
-let nextbut = document.querySelectorAll(".nextbut")
 let banner = document.querySelector(".banner");
 let bannerno=1;
 function newBanner(){
@@ -30,48 +29,4 @@ function newBanner(){
             bannerno=1;
         },50)}
 }
-
 setInterval(newBanner,5000);
-nextbut[0].addEventListener("click",(e) => {
-    banner.style.transform=`translateX(-${bannerno*100}vw)`
-    banner.style.transition="transform 1.5s ease-in-out";
-    bannerno++;
-
-  
-}
-)
-nextbut[1].addEventListener("click",(e) => {
-    banner.style.transform=`translateX(-${bannerno*100}vw)`
-    banner.style.transition="transform 1.5s ease-in-out";
-    bannerno++;
-
-  
-}
-)
-nextbut[2].addEventListener("click",(e) => {
-    banner.style.transform=`translateX(-${bannerno*100}vw)`
-    banner.style.transition="transform 1.5s ease-in-out";
-    bannerno++;
-
-  
-}
-)
-nextbut[3].addEventListener("click",(e) => {
-    banner.style.transform=`translateX(-${bannerno*100}vw)`
-    banner.style.transition="transform 1.5s ease-in-out";
-    bannerno++;
-
-  
-}
-)
-nextbut[4].addEventListener("click",(e) => {
-    banner.style.transform=`translateX(0%)`
-    banner.style.transition="none"
-    bannerno =1;
-
-  
-}
-)
- banner.style.transition="transform 1.5s ease-in-out";
-
-
