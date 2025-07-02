@@ -106,6 +106,38 @@ body{
     border: solid white;
     border-radius: 20px;
 }
+.topic{
+    padding-top: 1vh;
+    font-size: 2em;
+}
+.middle{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    font-size: 3em;
+    padding-left: 5%;
+    padding-top: 5vh;
+}
+.white{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 55vh;
+    width: 25vw;
+    
+
+}
+
+.green{
+     display: flex;
+     justify-content: center;
+    text-align: center;
+    height: 55vh;
+    width: 25vw;
+    background-color:#65CDC1 ;
+}
+.boxes14,.boxes24{
+    display: flex;
+}
 
 .rotate{
     height: 100%;
