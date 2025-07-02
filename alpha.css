@@ -82,6 +82,26 @@ main{
     position: absolute;
     bottom: 0;
 }
+.nextbut{
+    font-size: 2em;
+    font-weight: 1000;
+    padding-left: 10vw;
+    color: antiquewhite;
+    opacity: 0.5;
+    
+    
+
+}
+.rotate{
+    /* transform: rotate(360deg); */
+}
+.flex{
+    display: flex;
+    gap: 2px;
+}
+.psychohead{
+    color: #4E59AD;
+}
 .text{
     display: flex;
     flex-direction: column;
