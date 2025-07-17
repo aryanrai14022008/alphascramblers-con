@@ -33,20 +33,20 @@ body{
     position: fixed;
     z-index: 10000;
 }
-.logname{
+/* .logname{
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.1rem;
-}
+} */
 .image{
     display: flex;
     height: 100%;
-    width: 35%;
+    width: auto;
 }
 .img{
     height: 100%;
-    width: 30%;
+    width: auto;
 }
 .home,.login,.help,.about,.explorebut:hover{
     cursor:pointer;
