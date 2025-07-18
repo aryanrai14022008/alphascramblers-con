@@ -326,7 +326,14 @@ body{
     width: 62vw;
     text-align: center;
     font-family: "Mada", sans-serif;
-
+    position: absolute;
+    top: 18vh;
+    left: 19vw;
+    background-color: white;
+    z-index: 100001;
+}
+.regdis{
+    display: none;
 }
 .regtext,.reglogo{
     width: 50%;
@@ -365,6 +372,18 @@ body{
 .regalpha{
     font-weight: 700;
     font-size: 1.1em;
+}
+.overlay{
+    height: auto;
+    width: 100vw;
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    top: 0;
+    z-index: 100000;
+    display: none;
+}
+.overlay1{
+    display: block;
 }
 @media screen and (min-width: 700px) and (max-width: 1000px){
     .rightnav{
