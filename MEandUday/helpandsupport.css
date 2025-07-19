@@ -6,7 +6,7 @@ main
 {
 margin: 12vh;
 }
-.hns{
+.navbar{
     display: flex;
     justify-content: center;
     align-items: center;
