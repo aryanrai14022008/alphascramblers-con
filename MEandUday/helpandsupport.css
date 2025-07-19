@@ -51,6 +51,16 @@
     color: #4E59AD; 
     font-family:"Abhaya Libre ExtraBold",sans-serif;
     font-size: 280%;
-    margin-bottom: 4%;
+    margin-bottom: 3%;
+}
+.faqdata
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "M PLUS 2",sans-serif;
+    font-size:  130%; ;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
