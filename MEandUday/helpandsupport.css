@@ -7,7 +7,15 @@ main
 margin: 12vh;
 }
 .logo{
-    width:  ;
+    width: 20%;
+    height: 12vh;
+}
+.headnav{
+    display: flex;
+    width: 80%;
+    justify-content:right;
+    margin-right: 2%;
+    gap: 10%;
 }
 .navbar{
  top: 0;
