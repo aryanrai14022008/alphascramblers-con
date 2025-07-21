@@ -1,0 +1,101 @@
+.navcon,.navcon-ele{
+    display:none;
+}
+.home1,.login1,.about1,.help1{
+    padding: 2%;
+    margin: 0.5%;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    font-family: "Rowdies", sans-serif;
+    font-size: 0.7rem;}
+    .rightnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;
+    padding-left: 30%;
+    padding-right: 1%;
+    flex-wrap: nowrap;
+    font-size: 0.8rem;
+}
+.navbar{
+    top: 0;
+    left: 0;
+    height: 12vh;
+    width: 100%;
+    background-color: rgb(230, 224, 224);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Rowdies", sans-serif;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    z-index: 10000;
+}
+.image{
+    display: flex;
+    height: 100%;
+    width: auto;
+}
+.topic{
+    color: black;
+    font-size: 2em;
+    background-color: red;
+}
+@media screen and (min-width: 700px) and (max-width: 1000px){
+    .rightnav{
+    display: flex;
+    align-items: center;
+    width: 65%;
+    padding-left: 30%;
+    padding-right: 1%;
+    flex-wrap: nowrap;
+    font-size: 0.7rem;
+}
+.logname{
+    font-size: 1rem;
+}
+.navbar{
+    height: 12vh;
+    width: 100%;
+    background-color: rgb(230, 224, 224);
+    display: flex;
+    align-items: center;
+    font-family: "Rowdies", sans-serif;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}}
+@media screen and (min-width: 0px) and (max-width: 700px){
+    .rightnav{
+        display: flex;
+        flex-direction: column;
+        font-size: 0.6rem;
+    }
+    .logname{
+        font-size: 0.9rem;
+    }
+    .home,.login,.help,.about{
+        display: none;
+    }
+    .navcon{
+        display:flex;
+        align-items: center;
+        padding-left: 58%;
+        padding-right: 1%;
+    }
+    .navcon-ele-new{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        background-color: white;
+        position: fixed;
+        animation-name: navconele;
+        animation-duration: 1s;
+        z-index: 1000;
+    }
+}
+@keyframes navconele{
+    0%{padding-left:100%}
+    100%{padding-left:0%}
+}
