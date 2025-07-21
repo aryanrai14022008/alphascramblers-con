@@ -23,6 +23,14 @@ body{
     position: fixed;
     z-index: 10000;
 }
+.link{
+    text-decoration: none;
+    color: black;
+}
+.link1{
+    text-decoration: none;
+    color: white;
+}
 .image{
     display: flex;
     height: 100%;
