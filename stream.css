@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    margin-top: 12vh;
+    font-family: "Mada", sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+.navbar{
+    top: 0;
+    left: 0;
+    height: 12vh;
+    width: 100%;
+    background-color: rgb(230, 224, 224);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Rowdies", sans-serif;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    z-index: 10000;
+}
+.image{
+    display: flex;
+    height: 100%;
+    width: auto;
+}
+.img{
+    height: 100%;
+    width: auto;
+}
+.home,.login,.help,.about,.explorebut:hover{
+    cursor:pointer;
+}
+.rightnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;
+    padding-left: 30%;
+    padding-right: 1%;
+    flex-wrap: nowrap;
+    font-size: 0.8rem;
+}
+.navcon,.navcon-ele{
+    display:none;
+}
+.home1,.login1,.about1,.help1{
+    padding: 2%;
+    margin: 0.5%;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    font-family: "Rowdies", sans-serif;
+    font-size: 0.7rem;
+}
+.banner{
+    height: 30vh;
+    width: 100vw;
+    background-color: #D7EEFB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Patua One", serif;
+    font-size: 3em;
+}
+.introtext{
+    margin: 1.5vw;
+    font-size: 1.1em;
+}
+.bottom{
+    width: 100%;
+    height: 60vh;
+    background-color: #2F2C41;
+    margin-top: 5vh;
+}
+.streamintro{
+    text-align: center;
+    font-family: "Mada", sans-serif;
+    font-size: 2.5em;
+    font-weight: 600;
+}
+.streamsel{
+    display: flex;
+    justify-content: space-between;
+    margin: 4vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+.science,.commerce,.humanities{
+    height: 60vh;
+    width: 25vw;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    border: solid white;
+    border-radius: 25px;
+    text-align: center;
+}
+.exploreintro{
+    text-align: center;
+    font-family: "Mada", sans-serif;
+    font-size: 1.7em;
+    font-weight: 600;
+}
+.explorebut{
+    display: flex;
+    justify-content: space-between;
+    margin: 2vw;
+}
+.ex1,.ex2,.ex3,.ex4{
+    display: flex;
+    background-color: #D7EEFB;
+    width: 22vw;
+    height: 10vh;
+    font-family: "Mada", sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+}
+.sbut11,.sbut21,.cbut11,.cbut21{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: red;
+    width: 80%;
+    height: 35%;
+    margin: 3%;
+    margin-top: 5%;
+}
+.cbut,.sbut{
+    display: flex;
+    justify-content: center;
+    height: 25%;
+}
+.sbut13,.sbut23{
+    font-size: 0.65em;
+}
+.sbut12,.sbut22{
+    font-size: 1.4em;
+}
+.cbut12,.cbut22{
+    font-size: 1.2em;
+    text-align: center;
+}
+.cbut1,.cbut2,.sbut1,.sbut2{
+    width: 48%;
+    height: 100%;
+    background-color: #D7EEFB;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 2%;
+    border-radius: 13px;
+}
+.hbut{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: red;
+    width: 90%;
+    height: 10%;
+    margin: 5%;
+    font-size: 1.2em;
+}
+.stop,.ctop,.htop{
+    font-size: 2.1em;
+    font-weight: 500;
+    margin: 5%;
+}
+.stext,.ctext,.htext{
+    height: 46%;
+    margin-top: 0%;
+    margin: 5%;
+    margin-bottom: 7%;
+    display: flex;
+    font-size: 1.2em;
+}
+.htext{
+    height: 57%;
+}
+.register{
+    display: flex;
+    border: 2px solid black;
+    height: 74vh;
+    width: 62vw;
+    text-align: center;
+    font-family: "Mada", sans-serif;
+    position: absolute;
+    top: 18vh;
+    left: 19vw;
+    background-color: white;
+    z-index: 100001;
+}
+.regdis{
+    display: none;
+}
+.regtext,.reglogo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.reglogo1{
+    height: 50%;
+    width: 75%;
+}
+.regbody{
+    border: 1px solid black;
+    text-align: left;
+    width: 70%;
+    padding: 5%;
+}
+#name,#mail,#contact{
+    width: 90%;
+    height: 4vh;
+    margin: 1%;
+}
+.regbut{
+    display: flex;
+    justify-content: center;
+}
+.reg{
+    background-color: #6BCFD4;
+    height: 5vh;
+    width: 70%;
+    font-weight: 700;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+}
+.regalpha{
+    font-weight: 700;
+    font-size: 1.1em;
+}
+.overlay{
+    height: auto;
+    width: 100vw;
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    top: 0;
+    z-index: 100000;
+    display: none;
+}
+.overlay1{
+    display: block;
+}
+@media screen and (min-width: 700px) and (max-width: 1000px){
+    .rightnav{
+    display: flex;
+    align-items: center;
+    width: 65%;
+    padding-left: 30%;
+    padding-right: 1%;
+    flex-wrap: nowrap;
+    font-size: 0.7rem;
+}
+.logname{
+    font-size: 1rem;
+}
+.navbar{
+    height: 12vh;
+    width: 100%;
+    background-color: rgb(230, 224, 224);
+    display: flex;
+    align-items: center;
+    font-family: "Rowdies", sans-serif;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}}
+@media screen and (min-width: 0px) and (max-width: 700px){
+    .rightnav{
+        display: flex;
+        flex-direction: column;
+        font-size: 0.6rem;
+    }
+    .logname{
+        font-size: 0.9rem;
+    }
+    .home,.login,.help,.about{
+        display: none;
+    }
+    .navcon{
+        display:flex;
+        align-items: center;
+        padding-left: 58%;
+        padding-right: 1%;
+    }
+    .navcon-ele-new{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        background-color: white;
+        position: fixed;
+        animation-name: navconele;
+        animation-duration: 1s;
+        z-index: 1000;
+    }
+}
+@keyframes navconele{
+    0%{padding-left:100%}
+    100%{padding-left:0%}
+}
