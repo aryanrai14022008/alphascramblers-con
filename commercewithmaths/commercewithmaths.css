@@ -51,8 +51,35 @@
    
 }
 .whtsub{
-    color: red;
+    padding-top: 2px;
+    color: rgb(240, 10, 10);
     font-size: 1.5em;
+    font-weight: 900;
+}
+.wht{
+   
+    font-weight: 600;
+}
+.acc{
+    font-weight: 800;
+}
+.data{
+    display: flex;
+}
+.img1{
+    height: 40vh;
+    width: 40vw;
+    border: none;
+    outline: none;
+}
+.back{
+  ;
+}
+.point{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding-left: 2vw;
 }
 @media screen and (min-width: 700px) and (max-width: 1000px){
     .rightnav{
