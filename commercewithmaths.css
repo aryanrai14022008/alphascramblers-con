@@ -40,10 +40,19 @@
     width: auto;
 }
 .topic{
-    color: black;
+    color: rgb(54, 14, 127);
     font-size: 2em;
-    background-color: red;
+    background-color: #D7EEFB;
     margin-top: 12vh;
+    height: 18vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.whtsub{
+    color: red;
+    font-size: 1.5em;
 }
 @media screen and (min-width: 700px) and (max-width: 1000px){
     .rightnav{
