@@ -1,0 +1,444 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    margin-top: 12vh;
+}
+body{
+    overflow-x: hidden;
+}
+.banner{
+    display: flex;
+    width: 500vw;
+    transition: transform 1.5s ease-in-out;
+}
+.bottom{
+    width: 100%;
+    height: 60vh;
+    background-color: #2F2C41;
+    margin-top: 5vh;
+}
+.navbar{
+    top: 0;
+    left: 0;
+    height: 12vh;
+    width: 100%;
+    background-color: rgb(230, 224, 224);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Rowdies", sans-serif;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    z-index: 10000;
+}
+.image{
+    display: flex;
+    height: 100%;
+    width: auto;
+}
+.img{
+    height: 100%;
+    width: auto;
+}
+.home,.login,.help,.about,.explorebut:hover{
+    cursor:pointer;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.link1{
+    text-decoration: none;
+    color: white;
+}
+.rightnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;
+    padding-left: 30%;
+    padding-right: 1%;
+    flex-wrap: nowrap;
+    font-size: 0.8rem;
+}
+.bloghead{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    font-size: 2.5em;
+    padding-left: 2%;
+    padding-top: 5vh;
+    font-family: "Mada", sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+.more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.morehead{
+    color: #4E59AD;
+    font-size: 3em;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 3%;
+}
+.readbut{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 15vw;
+    height: 5vh;
+    background-color: red;
+    margin-top: 2vh;
+    font-size: 1.3em;
+}
+.blogbox{
+    display: flex;
+}
+.blogbox1{
+    display: flex;
+    flex-direction: column;
+}
+.blogbox2{
+    display: flex;
+    flex-direction: column;
+}
+.blogbox11,.blogbox12,.blogbox13,.blogbox14,.blogbox21,.blogbox22,.blogbox23,.blogbox24{
+    height: 15vh;
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 48vw;
+    margin: 0.5vw;
+}
+.navcon,.navcon-ele{
+    display:none;
+}
+.home1,.login1,.about1,.help1{
+    padding: 2%;
+    margin: 0.5%;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    font-family: "Rowdies", sans-serif;
+    font-size: 0.7rem;
+}
+.banner1,.banner2,.banner3,.banner4{
+    background: linear-gradient(90deg, #1693A1 30%, #2CA8B5 49%, #26CCDE 100%);
+    width: 100vw;
+    display: flex;
+    flex-shrink: 0; 
+    min-height: 60vh;
+}
+.banimg{
+    width: 54.4%;
+    position: relative;
+}
+.banimg1{
+    width: 83.27%;
+    padding-left: 16.77%;
+    padding-top: 2.5%;
+    position: absolute;
+    bottom: 0;
+}
+.boxes{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 10vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    height: 30vw;
+}
+.hed1,.hed2,.hed3{
+    padding-top: 3vh;
+    font-size: 2em;
+}
+.box3:hover{
+    height: 110%;
+    width: 40vw;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+       border: solid white;
+    border-radius: 25px;
+}
+.box1:hover{
+    transition: all 0.5s ease;
+    height: 110%;
+    width: 40vw;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+       border: solid white;
+    border-radius: 25px;
+}.box2:hover{
+    transition: all 0.5s ease;
+    height: 110%;
+    width: 40vw;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+       border: solid white;
+    border-radius: 25px;
+}
+.box1,.box2,.box3{
+    transition: all 0.5s ease;
+    height: 100%;
+    width: 30vw;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    border: solid white;
+    border-radius: 25px;
+}
+.topic{
+    padding-top: 5%;
+    font-size: 2.4em;
+    text-align: left;
+    font-family: "Mada", sans-serif;
+    font-weight: 450;
+}
+.middle{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    font-size: 2.5em;
+    padding-left: 2%;
+    padding-top: 5vh;
+    font-family: "Mada", sans-serif;
+    font-weight: 600;
+}
+.boxtext{
+    padding-top: 6%;
+    font-family: "Mada", sans-serif;
+    font-weight: 350;
+    font-size: 1.15em;
+}
+.white{
+    display: flex;
+    height: 65vh;
+    width: 19vw;
+    font-family: "Mada", sans-serif;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.65);
+    z-index: 2000;
+    flex-direction: column;
+    padding-left: 1vw;
+}
+.green{
+    display: flex;
+    height: 65vh;
+    width: 20vw;
+    background-color:#65CDC1 ;
+    font-family: "Mada", sans-serif;
+    z-index: 1500;
+}
+.boxes8{
+    width: 80vw; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10vw;
+}
+.boxes14,.boxes24{
+    display: flex;
+}
+.rotate{
+    height: 100%;
+    transform: rotateY(180deg);
+    width: 77.3%;
+    right: 0;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+}
+.strtbut-text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 60vw;
+    height: 10vh;
+    margin-top: 2.5vh;
+}
+.strtbut{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 15vw;
+    height: 5vh;
+    background-color: red;
+    margin-top: 2vh;
+    font-size: 1.3em;
+}
+.psychotest{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.psychohead{
+    color: #4E59AD;
+    font-size: 3em;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 3%;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    width: 46.6%;
+    padding-left: 5%;
+    line-height: 1.8;
+}
+.headtext{
+    color: white;
+    font-family: "Abel", sans-serif;
+    font-size: 1.1em;
+}
+.head{
+    font-size: 2.5em;
+    color: whitesmoke;
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+    white-space: nowrap;
+}
+.explorebut{
+    margin-top: 6%;
+    white-space: nowrap;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    background-color: #00555B;
+    width: 75%;  
+    font-size: 1.3em;
+    font-family: "Baloo Chettan 2", sans-serif;
+}
+.banner-wrapper{
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+}
+.register{
+    display: flex;
+    border: 2px solid black;
+    height: 74vh;
+    width: 62vw;
+    text-align: center;
+    font-family: "Mada", sans-serif;
+    position: absolute;
+    top: 18vh;
+    left: 19vw;
+    background-color: white;
+    z-index: 100001;
+}
+.regdis{
+    display: none;
+}
+.regtext,.reglogo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.reglogo1{
+    height: 50%;
+    width: 75%;
+}
+.regbody{
+    border: 1px solid black;
+    text-align: left;
+    width: 70%;
+    padding: 5%;
+}
+#name,#mail,#contact{
+    width: 90%;
+    height: 4vh;
+    margin: 1%;
+}
+.regbut{
+    display: flex;
+    justify-content: center;
+}
+.reg{
+    background-color: #6BCFD4;
+    height: 5vh;
+    width: 70%;
+    font-weight: 700;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+}
+.regalpha{
+    font-weight: 700;
+    font-size: 1.1em;
+}
+.overlay{
+    height: auto;
+    width: 100vw;
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    top: 0;
+    z-index: 100000;
+    display: none;
+}
+.overlay1{
+    display: block;
+}
+@media screen and (min-width: 700px) and (max-width: 1000px){
+    .rightnav{
+    display: flex;
+    align-items: center;
+    width: 65%;
+    padding-left: 30%;
+    padding-right: 1%;
+    flex-wrap: nowrap;
+    font-size: 0.7rem;
+}
+.logname{
+    font-size: 1rem;
+}
+.navbar{
+    height: 12vh;
+    width: 100%;
+    background-color: rgb(230, 224, 224);
+    display: flex;
+    align-items: center;
+    font-family: "Rowdies", sans-serif;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}}
+@media screen and (min-width: 0px) and (max-width: 700px){
+    .rightnav{
+        display: flex;
+        flex-direction: column;
+        font-size: 0.6rem;
+    }
+    .logname{
+        font-size: 0.9rem;
+    }
+    .home,.login,.help,.about{
+        display: none;
+    }
+    .navcon{
+        display:flex;
+        align-items: center;
+        padding-left: 58%;
+        padding-right: 1%;
+    }
+    .navcon-ele-new{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        background-color: white;
+        position: fixed;
+        animation-name: navconele;
+        animation-duration: 1s;
+        z-index: 1000;
+    }
+}
+@keyframes navconele{
+    0%{padding-left:100%}
+    100%{padding-left:0%}
+}
