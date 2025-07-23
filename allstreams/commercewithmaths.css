@@ -42,3 +42,25 @@ body{
     margin-left: 4.5%;
     list-style-type:square;
 }
+.exams{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cnf{
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #D7EEFB;
+    margin: 2%;
+}
+.cnf th,.cnf td {
+    border: 1px solid black;
+    padding: 1%;
+    text-align: center;
+}
+.cnf th{
+    font-size: 1.2em;
+}
+.cnf td:nth-child(1){
+    font-weight: 700;
+}
