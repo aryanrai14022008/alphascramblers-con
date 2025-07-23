@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    margin-top: 12vh;
+    font-family: "Mada", sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+.banner{
+    height: 30vh;
+    width: 100vw;
+    background-color: #D7EEFB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Patua One", serif;
+    font-size: 3em;
+}

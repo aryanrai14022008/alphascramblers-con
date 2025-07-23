@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    margin-top: 12vh;
+    font-family: "Mada", sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+.banner{
+    height: 30vh;
+    width: 100vw;
+    background-color: #D7EEFB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Patua One", serif;
+    font-size: 3em;
+}
+.textarea{
+    width: 88vw;
+    margin: 6vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    line-height: 35px;
+}
+.head{
+    font-size: 1.5em;
+}
+.subhead{
+    font-size: 1.3em;
+}
+.subsubhead{
+    font-size: 1.1em;
+}
+.pointers{
+    margin-left: 4.5%;
+}
+.pointers1{
+    margin-left: 4.5%;
+    list-style-type:square;
+}
