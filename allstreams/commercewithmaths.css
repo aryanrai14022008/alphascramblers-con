@@ -70,5 +70,4 @@ body{
     font-weight: 700;
 }
 .head::before{
-    content:"➜ "
-}
+    content:"➜ "}
