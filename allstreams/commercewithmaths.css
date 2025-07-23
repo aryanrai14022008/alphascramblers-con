@@ -27,7 +27,12 @@ body{
     line-height: 35px;
 }
 .head{
+    color: #ff0000;
     font-size: 1.5em;
+}
+.head1
+{
+    font-size: 1.3em;
 }
 .subhead{
     font-size: 1.3em;
