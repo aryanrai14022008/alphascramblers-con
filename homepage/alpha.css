@@ -252,6 +252,7 @@ body{
     width: 75%;  
     font-size: 1.3em;
     font-family: "Baloo Chettan 2", sans-serif;
+    text-decoration: none;
 }
 .banner-wrapper{
     width: 100vw;
