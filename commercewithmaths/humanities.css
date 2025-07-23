@@ -140,29 +140,6 @@ body{
     background-color: #2F2C41;
     margin-top: 5vh;
 }
-.textarea{
-    width: 88vw;
-    margin: 6vw;
-    margin-top: 2vw;
-    margin-bottom: 2vw;
-    line-height: 35px;
-}
-.head{
-    font-size: 1.5em;
-}
-.subhead{
-    font-size: 1.3em;
-}
-.subsubhead{
-    font-size: 1.1em;
-}
-.pointers{
-    margin-left: 4.5%;
-}
-.pointers1{
-    margin-left: 4.5%;
-    list-style-type:square;
-}
 @media screen and (min-width: 700px) and (max-width: 1000px){
     .rightnav{
     display: flex;
