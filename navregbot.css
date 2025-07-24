@@ -68,7 +68,7 @@
     width: 62vw;
     text-align: center;
     font-family: "Mada", sans-serif;
-    position: absolute;
+    position: fixed;
     top: 18vh;
     left: 19vw;
     background-color: white;
