@@ -8,13 +8,19 @@
     /* padding: 2%; */
     display: flex;
     justify-content: space-between;
+    padding-right: 2%;
+    height: 6vh;
 }
 .item{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10vw;
+    gap: 6vw;
 }
 .home,.login,.about,.help{
     font-family: 'Segoe UI', sans-serif;
+}
+.image{
+    height: 10%;
+    width: 10vw;
 }
