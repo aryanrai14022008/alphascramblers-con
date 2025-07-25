@@ -4,41 +4,47 @@
 }
 main{
     margin-top: 12vh;
-    font-family: "Mada", sans-serif;
 }
 body{
+    font-family: 'Segoe UI', sans-serif;
     overflow-x: hidden;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f9fd;
+    color: #333;
 }
-.banner{
-    height: 30vh;
-    width: 100vw;
-    background-color: #D7EEFB;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "Patua One", serif;
-    font-size: 3em;
+.headtext{
+    text-align: center;
+    font-size: 2.4em;
+    color: #05445E;
+    padding-top: 2.5%;
 }
 .textarea{
-    width: 88vw;
-    margin: 6vw;
+    width: 92vw;
+    margin: 4vw;
     margin-top: 2vw;
     margin-bottom: 2vw;
     line-height: 35px;
 }
 .head{
-    color: #ff0000;
-    font-size: 1.5em;
+    color: #05445E;
+    font-size: 1.7em;
+    font-weight: bolder;
+    font-weight:700;
 }
 .head1
 {
     font-size: 1.3em;
+    color: #05445E;
 }
 .subhead{
     font-size: 1.3em;
+    color: #05445E;
 }
 .subsubhead{
     font-size: 1.1em;
+    color: #05445E;
 }
 .pointers{
     margin-left: 4.5%;
@@ -53,21 +59,25 @@ body{
     align-items: center;
 }
 .cnf{
-    border: 1px solid black;
+    background-color: #e6f0fa;
     border-collapse: collapse;
-    background-color: #D7EEFB;
-    margin: 2%;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.cnf td{
+        border: 1px solid #b3d8e7;
 }
 .cnf th,.cnf td {
-    border: 1px solid black;
     padding: 1%;
     text-align: center;
+    border: 1px solid #b3d8e7;
 }
 .cnf th{
-    font-size: 1.2em;
+    background-color: #d0ebf9;
+    font-weight: bold;
 }
 .cnf td:nth-child(1){
     font-weight: 700;
 }
-.head::before{
-    content:"➜ "}
