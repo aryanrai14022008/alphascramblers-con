@@ -19,3 +19,55 @@ body{
     font-family: "Patua One", serif;
     font-size: 3em;
 }
+.textarea{
+    width: 88vw;
+    margin: 6vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    line-height: 35px;
+}
+.head{
+    color: #ff0000;
+    font-size: 1.5em;
+}
+.head1
+{
+    font-size: 1.3em;
+}
+.subhead{
+    font-size: 1.3em;
+}
+.subsubhead{
+    font-size: 1.1em;
+}
+.pointers{
+    margin-left: 4.5%;
+}
+.pointers1{
+    margin-left: 4.5%;
+    list-style-type:square;
+}
+.exams{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cnf{
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #D7EEFB;
+    margin: 2%;
+}
+.cnf th,.cnf td {
+    border: 1px solid black;
+    padding: 1%;
+    text-align: center;
+}
+.cnf th{
+    font-size: 1.2em;
+}
+.cnf td:nth-child(1){
+    font-weight: 700;
+}
+.head::before{
+    content:"➜ "}
