@@ -5,14 +5,15 @@
 
 .navbar{
     background-color: #E6E0E0;
-    padding: 2%;
+    /* padding: 2%; */
     display: flex;
     justify-content: space-between;
 }
 .item{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    gap: 10vw;
 }
 .home,.login,.about,.help{
     font-family: 'Segoe UI', sans-serif;
