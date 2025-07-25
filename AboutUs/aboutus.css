@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: #E6E0E0;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.home,.login,.about,.help{
+    font-family: 'Segoe UI', sans-serif;
+}
