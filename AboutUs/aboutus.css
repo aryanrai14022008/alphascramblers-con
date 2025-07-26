@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 .banner{
     margin-top: 12vh;
@@ -15,14 +16,19 @@
     font-style: normal;
 }
 .imgdata{
-    height: 70vh;
+    height: 60vh;
+    display: flex;
+    width: 100vw;
 }
 .data{
+    height: 60vh;
+    width: 50vw;
+    background-color: #093A81;
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    gap: 7vh;
     align-items: center;
-    height: 100%;
+    justify-content: center;
 }
 .datahead{
     font-family: "mada",sans-serif;
@@ -32,10 +38,15 @@
 .datadata{
     font-family: "mada",sans-serif;
     color: white;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
+    text-align: center;
+    width: 85%;
+    line-height: 25px;
 }
-.imgdata{
-    display: flex;
+.iu{
+    width: 50vw;
+    height: 60vh;
+    object-fit: cover;
 }
 .animtext{
     display: flex;
@@ -43,7 +54,6 @@
 .fullanim{
     display: flex;
     flex-direction: column;
-    gap: 10vh;
 }
 .anim{
     width: 50vw;
@@ -54,8 +64,9 @@
 .texta{
     display: flex;
     flex-direction: column;
-    gap: 2vh;
+    gap: 6vh;
     width: 50vw;
+    padding: 5%;
 }
 .text2{
     display: flex;
@@ -73,11 +84,6 @@
     display: flex;
     justify-content: center;
 }
-.iu{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
 .goals{
     display: flex;
     justify-content: center;
@@ -88,15 +94,10 @@
     color: #4E58AD;
     font-weight: 700;
 }
-.data{
-    height: 60vh;
-    width: 50vw;
-    background-color: #093A81;
-    display: flex;
-    flex-direction: column;
-    gap: 7vh;
-}
 .image2{
     width: 50vw;
     height: 60vh;
+}
+dotlottie-wc{
+    overflow-y: hidden;
 }
