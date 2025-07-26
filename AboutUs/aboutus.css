@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .banner{
     margin-top: 12vh;
     height: 22vh;
@@ -6,39 +10,35 @@
     justify-content: center;
     align-items: center;
     font-size: 3em;
-    text-decoration: underline;
     font-family: "M PLUS Rounded 1c", sans-serif;
-     font-weight: 300;
-  font-style: normal;
-
+    font-weight: 600;
+    font-style: normal;
 }
-.datahead{
+.imgdata{
+    height: 70vh;
+}
+.data{
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
-    padding-top: 3vh;
-   font-family: "mada",sans-serif;
-
+    height: 100%;
+}
+.datahead{
+    font-family: "mada",sans-serif;
     color: white;
     font-size: 2em;
-
 }
 .datadata{
     font-family: "mada",sans-serif;
-
     color: white;
     letter-spacing: 3px;
-    padding-left: 1vw;
-
 }
 .imgdata{
     display: flex;
-    
-
 }
 .animtext{
     display: flex;
-   
 }
 .fullanim{
     display: flex;
@@ -77,8 +77,6 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    
-   
 }
 .goals{
     display: flex;
@@ -89,9 +87,7 @@
     text-decoration: underline;
     color: #4E58AD;
     font-weight: 700;
-
 }
-
 .data{
     height: 60vh;
     width: 50vw;
@@ -103,5 +99,4 @@
 .image2{
     width: 50vw;
     height: 60vh;
-    
 }
