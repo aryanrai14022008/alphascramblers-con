@@ -36,12 +36,60 @@
     
 
 }
+.animtext{
+    display: flex;
+   
+}
+.fullanim{
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+}
+.anim{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texta{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    width: 50vw;
+}
+.text2{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
+.text3{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+.text1{
+    font-size: 2em;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
 .iu{
     width: 100%;
     height: 100%;
     object-fit: cover;
     
    
+}
+.goals{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    font-size: 2em;
+    text-decoration: underline;
+    color: #4E58AD;
+    font-weight: 700;
+
 }
 
 .data{
