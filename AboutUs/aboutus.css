@@ -48,6 +48,10 @@ main{
     object-fit: cover;
     overflow: hidden;
 }
+.texta{
+     font-family: "mada",sans-serif;
+
+}
 .image2{
     overflow: hidden;
 }
