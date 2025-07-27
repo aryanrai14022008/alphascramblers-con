@@ -1,11 +1,11 @@
 *{
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
 }
 main{
     font-family: 'Segoe UI', sans-serif;
     margin-top: 12vh;
+    overflow-x: hidden;
 }
 .headtext{
     text-align: center;
