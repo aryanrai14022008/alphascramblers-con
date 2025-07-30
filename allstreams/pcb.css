@@ -4,9 +4,9 @@
 }
 main{
     margin-top: 12vh;
-    font-family: "Mada", sans-serif;
 }
 body{
+    font-family: Arial, sans-serif;
     overflow-x: hidden;
     background-color: #f4f9fd;
 }
@@ -29,7 +29,7 @@ body{
     font-weight: 700;
 }
 .subhead{
-    font-size: 1.4em;
+    font-size: 1.3em;
     color: #05445E;
 }
 .subsubhead{
