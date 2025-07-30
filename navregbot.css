@@ -61,6 +61,19 @@
     font-family: "Rowdies", sans-serif;
     font-size: 0.7rem;
 }
+.cross{
+    height: 5%;
+    width: 5%;
+    position: absolute;
+    right: 0;
+    padding-top: 1%;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+.regdata{
+    display: flex;
+    padding-top: 5%;
+}
 .register{
     display: flex;
     border: 2px solid black;
@@ -73,6 +86,7 @@
     left: 19vw;
     background-color: white;
     z-index: 100001;
+    flex-direction: column;
 }
 .regdis{
     display: none;
