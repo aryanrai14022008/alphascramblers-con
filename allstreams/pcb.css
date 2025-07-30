@@ -23,9 +23,19 @@ body{
     margin-bottom: 2vw;
     line-height: 35px;
 }
-.subhead{
-    margin-left: 4vw;
+.head{
     color: #05445E;
     font-size: 1.7em;
+    font-weight: 700;
 }
-    
+.subhead{
+    font-size: 1.4em;
+    color: #05445E;
+}
+.subsubhead{
+    font-size: 1.1em;
+    color: #05445E;
+}
+.pointers{
+    padding-left: 4.5%;
+}
