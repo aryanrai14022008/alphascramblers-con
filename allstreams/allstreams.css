@@ -86,4 +86,5 @@ body{
 }
 .cnf td:nth-child(1){
     font-weight: 700;
+    list-style: square;
 }
