@@ -87,4 +87,33 @@ body{
 .cnf td:nth-child(1){
     font-weight: 700;
     list-style: square;
+    width: 20vw;
+}
+.cnf td:nth-child(4){
+    width: 10vw;
+}
+.career{
+    display: flex;
+}
+.career1, .career2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.career img{
+    width: 42vw;
+    padding: 1vw;
+}
+.career1 div{
+    height: 60vh;
+    border: 1px solid black;
+    margin: 1vw;
+}
+.career2 div{
+    height: 60vh;
+    border: 1px solid black;
+    margin: 1vw;
+}
+.career .head1{
+    font-size: 1.6em;
 }
