@@ -35,6 +35,10 @@ body{
 }
 .subjects{
     display: flex;
+    flex-direction: column;
+}
+.sub1,.sub2,.sub3{
+    display: flex;
 }
 .s1,.s2,.s3,.s4,.s5,.s6{
     margin: 1vw;
