@@ -23,6 +23,25 @@ body{
     margin-bottom: 2vw;
     line-height: 35px;
 }
+.subjects{
+    display: flex;
+    flex-direction: column;
+}
+.sub1,.sub2,.sub3{
+    display: flex;
+}
+.s1,.s2,.s3,.s4{
+    margin: 1vw;
+    padding: 1vw;
+    width: 42vw;
+    background-color: #e2effa;
+}
+.s5{
+    margin: 1vw;
+    padding: 1vw;
+    width: 88vw;
+    background-color: #e2effa;
+}
 .head{
     color: #05445E;
     font-size: 1.7em;
