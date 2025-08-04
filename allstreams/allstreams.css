@@ -33,6 +33,23 @@ body{
     margin-bottom: 2vw;
     line-height: 35px;
 }
+.subjects{
+    display: flex;
+}
+.s1,.s2,.s3,.s4,.s5,.s6{
+    margin: 1vw;
+    padding: 1vw;
+    height: 70vh;
+    width: 42vw;
+    background-color: 	#e2effa;
+}
+.s7{
+    margin: 1vw;
+    padding: 1vw;
+    height: 40vh;
+    width: 88vw;
+    background-color: 	#e2effa;
+}
 .head{
     color: #05445E;
     font-size: 1.7em;
