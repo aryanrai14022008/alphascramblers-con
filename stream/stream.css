@@ -55,7 +55,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: 	#e2effa;
+    background-color:#f9fbfd;
+    border: 1px solid #cfe0f5
 }
 .sanim{
     width: 10vw;
@@ -66,17 +67,20 @@ body{
     font-size: 2.3em;
     font-weight: 600;
     margin: 2.5%;
+    color: #3b5998;
 }
 .stext,.ctext,.htext{
     display: flex;
     font-size: 1.2em;
     width: 95%;
+    color: #5c6b82;
 }
 .exploreintro{
     text-align: center;
     font-family: "Mada", sans-serif;
-    font-size: 1.7em;
+    font-size: 2em;
     font-weight: 600;
+    padding-top: 5vh;
 }
 .explorebut{
     display: flex;
@@ -85,6 +89,8 @@ body{
 }
 .exi{
     width: 20vw;
+    height: 20vh;
+    padding: 2.5vw;
 }
 .ex1,.ex2,.ex3,.ex4{
     display: flex;
@@ -93,13 +99,14 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-weight: 600;
+    font-weight: 700;
     flex-direction: column;
+    font-size: 1.3em;
 }
 .s1,.s2,.c1,.c2,.h1{
     width: 90%;
     height: 10vh;
-    background-color: #4a90e2;
+    background-color:#539fe8;
     display: flex;
     justify-content: center;
     align-items: center;
