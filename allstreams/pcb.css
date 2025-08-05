@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    scroll-padding-top: 14vh;
+    scroll-behavior: smooth;
 }
 main{
     margin-top: 12vh;
@@ -57,4 +59,8 @@ body{
 }
 .pointers{
     padding-left: 4.5%;
+}
+.f1{
+    display: flex;
+    justify-content: center;
 }

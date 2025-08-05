@@ -62,9 +62,7 @@ body{
     color: #05445E;
     font-size: 1.2em;
 }
-.f1
-{
-    margin-top: 4vw;
+.f1{
     display: flex;
     justify-content: center;
 }
