@@ -4,6 +4,7 @@ let footer = document.querySelector("footer");
 let overlay=document.querySelector(".overlay");
 let bars = document.querySelector(".navcon");
 let menu = document.querySelector(".navcon-ele");
+let scrolltop = document.querySelector(".top");
 let currstat="unvis";
 bars.addEventListener("click",()=>{
 if(currstat=="unvis"){
@@ -36,4 +37,17 @@ cross.addEventListener("click",()=>{
     footer.style.opacity="1";
     overlay.classList.remove("overlay1");
     document.body.style.overflow="scroll";
+})
+scrolltop.addEventListener("click",()=>{
+    window.scrollTo(0,0);
+})
+window.addEventListener("scroll",()=>{
+    if(scrollY>innerHeight/4){
+        console.log("scroll")
+        scrolltop.classList.remove("d");
+    }
+    if(scrollY<innerHeight/innerHeight){
+        console.log("scroll")
+        scrolltop.classList.add("d");
+    }
 })

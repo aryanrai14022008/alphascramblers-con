@@ -262,3 +262,26 @@ body{
     position: relative;
     overflow: hidden;
 }
+.d1,.d2,.d3,.d4{
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    border: 1px solid black;
+    border-radius: 10px;
+    left: 47vw;
+    top: 68vh;
+    background-color: white;
+    cursor: pointer;
+}
+.d1{
+    background-color: gray;
+}
+.d2{
+    left: 49vw;
+}
+.d3{
+    left: 51vw;
+}
+.d4{
+    left: 53vw;
+}

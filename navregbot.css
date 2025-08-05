@@ -1,3 +1,6 @@
+*{
+    scroll-behavior: smooth;
+}
 .bottom{
     width: 100%;
     height: 60vh;
@@ -140,6 +143,16 @@
 }
 .overlay1{
     display: block;
+}
+.top{
+    position: fixed;
+    top: 14vh;
+    right: 0.5vw;
+    z-index: 10001;
+    cursor: pointer;
+}
+.d{
+    display: none;
 }
 @media screen and (min-width: 700px) and (max-width: 1000px){
     .rightnav{
