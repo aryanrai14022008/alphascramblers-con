@@ -64,3 +64,36 @@ body{
     display: flex;
     justify-content: center;
 }
+.exams{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cnf{
+    background-color: #e6f0fa;
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.cnf td{
+        border: 1px solid #b3d8e7;
+}
+.cnf th,.cnf td {
+    padding: 1%;
+    text-align: center;
+    border: 1px solid #b3d8e7;
+}
+.cnf th{
+    background-color: #d0ebf9;
+    font-weight: bold;
+}
+.cnf td:nth-child(1){
+    font-weight: 700;
+    list-style: square;
+    width: 20vw;
+}
+.cnf td:nth-child(4){
+    width: 12vw;
+}
