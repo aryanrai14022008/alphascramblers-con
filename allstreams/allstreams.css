@@ -110,7 +110,7 @@ body{
     width: 20vw;
 }
 .cnf td:nth-child(4){
-    width: 10vw;
+    width: 12vw;
 }
 .career{
     display: flex;
@@ -136,4 +136,10 @@ body{
 }
 .career .head1{
     font-size: 1.6em;
+}
+.s5PCB{
+    margin: 1vw;
+    padding: 1vw;
+    width: 88vw;
+    background-color: #e2effa;
 }
