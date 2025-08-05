@@ -8,16 +8,28 @@ main{
 }
 body{
     overflow-x: hidden;
+    background-color: #f4f9fd;
 }
 .banner{
-    height: 30vh;
+    height: 70vh;
     width: 100vw;
     background-color: #D7EEFB;
     display: flex;
-    justify-content: center;
     align-items: center;
-    font-family: "Patua One", serif;
-    font-size: 3em;
+}
+.bannertext{
+    width: 40vw;
+    padding-left: 6vw;
+}
+.bhead{
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+    font-size: 2.7em;
+    font-weight: 700;
+}
+.btext{
+    font-family: "Abel", sans-serif;
+    line-height: 30px;
+    font-size: 1.2em;
 }
 .introtext{
     margin: 1.5vw;
@@ -26,7 +38,7 @@ body{
 .streamintro{
     text-align: center;
     font-family: "Mada", sans-serif;
-    font-size: 2.5em;
+    font-size: 3em;
     font-weight: 600;
 }
 .streamsel{
@@ -37,12 +49,28 @@ body{
     margin-bottom: 2vw;
 }
 .science,.commerce,.humanities{
-    height: 60vh;
     width: 25vw;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-    border: solid white;
     border-radius: 25px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: 	#e2effa;
+}
+.sanim{
+    width: 10vw;
+    padding-top: 1vh;
+    height: 25vh;
+}
+.stop,.ctop,.htop{
+    font-size: 2.3em;
+    font-weight: 600;
+    margin: 2.5%;
+}
+.stext,.ctext,.htext{
+    display: flex;
+    font-size: 1.2em;
+    width: 95%;
 }
 .exploreintro{
     text-align: center;
@@ -55,79 +83,38 @@ body{
     justify-content: space-between;
     margin: 2vw;
 }
+.exi{
+    width: 20vw;
+}
 .ex1,.ex2,.ex3,.ex4{
     display: flex;
-    background-color: #D7EEFB;
     width: 22vw;
-    height: 10vh;
     font-family: "Mada", sans-serif;
     align-items: center;
     justify-content: center;
     text-align: center;
     font-weight: 600;
-}
-.sbut11,.sbut21,.cbut11,.cbut21{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    background-color: red;
-    width: 80%;
-    height: 35%;
-    margin: 3%;
-    margin-top: 5%;
-    text-decoration: none;
-}
-.cbut,.sbut{
-    display: flex;
-    justify-content: center;
-    height: 25%;
-}
-.sbut13,.sbut23{
-    font-size: 0.65em;
-}
-.sbut12,.sbut22{
-    font-size: 1.4em;
-}
-.cbut12,.cbut22{
-    font-size: 1.2em;
-    text-align: center;
-}
-.cbut1,.cbut2,.sbut1,.sbut2{
-    width: 48%;
-    height: 100%;
-    background-color: #D7EEFB;
-    display: flex;
-    align-items: center;
     flex-direction: column;
-    margin: 2%;
-    border-radius: 13px;
 }
-.hbut{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    background-color: red;
+.s1,.s2,.c1,.c2,.h1{
     width: 90%;
-    height: 10%;
-    margin: 5%;
-    font-size: 1.2em;
+    height: 10vh;
+    background-color: #4a90e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3%;
+    border-radius: 15px;
+    color: white;
+    font-size: 1.3em;
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+    font-weight: 600;
     text-decoration: none;
 }
-.stop,.ctop,.htop{
-    font-size: 2.1em;
-    font-weight: 500;
-    margin: 5%;
-}
-.stext,.ctext,.htext{
-    height: 46%;
-    margin-top: 0%;
-    margin: 5%;
-    margin-bottom: 7%;
-    display: flex;
-    font-size: 1.2em;
+.h1{
+    font-size: 1.7em;
+    margin-top: 20%;
 }
 .htext{
-    height: 57%;
+    margin-top: 5%;
 }
