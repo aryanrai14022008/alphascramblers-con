@@ -49,7 +49,7 @@ body{
     font-size: 1.3em;
     text-decoration: none;
     color: white;
-    cursor: default;
+    cursor: pointer;
 }
 .blogbox{
     display: flex;

@@ -1,6 +1,9 @@
 *{
     scroll-behavior: smooth;
 }
+.body{
+    background-color: #f4f9fd;
+}
 .bottom{
     width: 100%;
     height: 60vh;
@@ -12,7 +15,7 @@
     left: 0;
     height: 12vh;
     width: 100%;
-    background-color: rgb(230, 224, 224);
+    background-color: #f4f9fd;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,7 +33,12 @@
     height: 100%;
     width: auto;
 }
-.home,.login,.help,.about,.explorebut:hover{
+.home,.login,.help,.about{
+    cursor:pointer;
+    font-size: 1.1em;
+    font-weight: lighter;
+}
+.explorebut{
     cursor:pointer;
 }
 .link{
