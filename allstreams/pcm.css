@@ -50,8 +50,63 @@ body{
 }
 .subjects
 {
+    display: flex;
+    flex-direction: row;
+    background-color: #b3d8e7;
     margin: 3vw;
     margin-top: 1vw;
+}
+#physics
+{
+    display: flex;
+    width: 42vw;
+    padding: 1vw;
+    margin-left: 3vw;
+    background-color:#e2effa;
+}
+#chemistry
+{
+     display: flex;
+    width: 42vw;
+    padding: 1vw;
+    margin-left: 3vw;
+    background-color:#e2effa;
+}
+#mathematics
+{
+      display: flex;
+    width: 42vw;
+    padding: 1vw;
+    margin-left: 3vw;
+    background-color:#e2effa;
+}
+#english
+{
+      display: flex;
+    width: 42vw;
+    padding: 1vw;
+    margin-left: 3vw;
+    background-color:#e2effa;
+}
+#optional
+{
+       display: flex;
+    width: 42vw;
+    padding: 1vw;
+    margin-left: 3vw;
+    background-color:#e2effa;
+}
+.sub1 .sub2
+{
+    display: flex;
+}
+.s1 .s2 .s3 .s4
+{
+    display: flex;
+    margin: 1vw;
+    padding: 1vw;
+    width: 42vw;
+    background-color: 	#e2effa;
 }
 .subhead{
     font-size: 1.4em;
@@ -77,6 +132,7 @@ body{
 .exams
 {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -84,7 +140,7 @@ body{
 {
     background-color: #e6f0fa;
     border-collapse: collapse;
-    width: 100%;
+    width: 94%;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     border-radius: 8px;
     overflow: hidden;
@@ -93,7 +149,7 @@ body{
         border: 1px solid #b3d8e7;
 }
 .cnf th,.cnf td {
-    padding: 1%;
+    padding:1% 0.5% 1% 0.5% ;
     text-align: center;
     border: 1px solid #b3d8e7;
 }
