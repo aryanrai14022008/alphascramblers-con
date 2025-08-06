@@ -71,12 +71,18 @@ body{
 }
 .banner1,.banner2,.banner3,.banner4{
     /* background: linear-gradient(90deg, #1693A1 30%, #2CA8B5 49%, #26CCDE 100%); */
-    background-image: url(../images/banner1.png);
-    background-size: cover;
     width: 100vw;
     display: flex;
     flex-shrink: 0; 
     min-height: 60vh;
+}
+.b1{
+    background-image: url(../images/banner1.png);
+    background-size: cover;
+}
+.b2{
+    background-image: url(../images/banner2.png);
+    background-size: cover;
 }
 .banimg{
     width: 54.4%;
