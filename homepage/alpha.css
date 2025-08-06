@@ -70,7 +70,9 @@ body{
     margin: 0.5vw;
 }
 .banner1,.banner2,.banner3,.banner4{
-    background: linear-gradient(90deg, #1693A1 30%, #2CA8B5 49%, #26CCDE 100%);
+    /* background: linear-gradient(90deg, #1693A1 30%, #2CA8B5 49%, #26CCDE 100%); */
+    background-image: url(../images/banner1.png);
+    background-size: cover;
     width: 100vw;
     display: flex;
     flex-shrink: 0; 
@@ -232,6 +234,7 @@ body{
     width: 46.6%;
     padding-left: 5%;
     line-height: 1.8;
+    background: linear-gradient(to right, rgba(0,0,0,0.8), rgba(0, 0, 0, 0));
 }
 .headtext{
     color: white;
