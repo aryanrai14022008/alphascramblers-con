@@ -6,10 +6,15 @@ let d3 = document.querySelector(".d3");
 let d4 = document.querySelector(".d4");
 let contactus=document.querySelector(".contactpopup")
 let icon = document.querySelector(".contactuslogo")
+let mainElement = document.querySelector("main");
+
 let i=1;
 icon.addEventListener("click",() => {
     contactus.classList.remove("dis")
-    
+    mainElement.style.opacity=0.4
+    contactus.style.opacity=1
+
+
   
 }
 )

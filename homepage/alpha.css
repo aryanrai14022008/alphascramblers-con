@@ -393,7 +393,7 @@ color:black;
     cursor: pointer;
 }
 .contactpopup{
-    background-color: #8cbfef;
+    background-color: #b5d9fb;
     height: 50vh;
     width: 50vw;
     position: fixed;
@@ -409,7 +409,7 @@ color:black;
     display: none;
 }
 .blackhead{
-    background-color: black;
+    background-color: rgb(7, 87, 148);
     color: white;
     font-weight: 700;
     display: flex;
