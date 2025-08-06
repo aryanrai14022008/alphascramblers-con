@@ -95,6 +95,7 @@ body{
 .banimg{
     width: 54.4%;
     position: relative;
+    display: none;
 }
 .banimg1{
     width: 83.27%;
