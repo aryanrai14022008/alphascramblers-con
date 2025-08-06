@@ -1,9 +1,11 @@
 *{
     margin: 0;
     padding: 0;
+    position: relative;
 }
 main{
     margin-top: 12vh;
+    position: relative;
 }
 body{
     overflow-x: hidden;
@@ -370,4 +372,68 @@ color:black;
     /* justify-content: center; */
     /* padding-top: 2vh; */
     
+}
+.contactuslogo{
+    font-size: 3em;
+    position: fixed;
+    
+    top: 75vh;
+    left: 0;
+    z-index: 10000;
+    
+    cursor: pointer;
+}
+.contactuslogo:hover{
+    font-size: 4em;
+    position: fixed;
+    
+    top: 75vh;
+    left: 0;
+    z-index: 1000000;
+    cursor: pointer;
+}
+.contactpopup{
+    background-color: #8cbfef;
+    height: 50vh;
+    width: 50vw;
+    position: fixed;
+    top: 40vh;
+    left: 15vw;
+    z-index: 1000000;
+    border: solid #a2c8ed;
+    border-radius: 25px;
+    
+    
+}
+.dis{
+    display: none;
+}
+.blackhead{
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    border: solid rgb(17, 17, 17);
+    border-radius: 20px;
+}
+.textform input{
+    font-size: 2.5em;
+    width: 39vw;
+    
+}
+.dop input{
+    font-size: 2.5em;
+    width: 39vw;
+    
+}
+.textformedit{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3vh;
 }
