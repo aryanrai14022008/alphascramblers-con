@@ -82,7 +82,15 @@ body{
 }
 .b2{
     background-image: url(../images/banner2.png);
-    background-size: cover;
+    background-size: 100vw 90vh;
+}
+.b3{
+    background-image: url(../images/banner3.png);
+    background-size: 100vw 100vh;
+}
+.b4{
+    background-image: url(../images/banner4.png);
+    background-size: 100vw 80vh;
 }
 .banimg{
     width: 54.4%;
@@ -103,41 +111,72 @@ body{
     gap: 10vw;
     margin-left: 8vw;
     margin-right: 8vw;
-    height: 30vw;
 }
-.hed1,.hed2,.hed3{
-    padding-top: 3vh;
-    font-size: 2em;
-}
-.box3:hover{
+/* .box3:hover{
     height: 105%;
-    width: 37vw;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    width: 30vw;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
     border: solid white;
-    border-radius: 25px;        
+    border-radius: 25px;  
 }
 .box1:hover{
     transition: all 0.5s ease;
     height: 105%;
-    width: 37vw;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    width: 30vw;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
     border: solid white;
     border-radius: 25px;
 }.box2:hover{
     transition: all 0.5s ease;
     height: 105%;
-    width: 37vw;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    width: 30vw;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
     border: solid white;
     border-radius: 25px;
-}
+} */
 .box1,.box2,.box3{
     transition: all 0.5s ease;
-    height: 100%;
     width: 30vw;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
-    border: solid white;
     border-radius: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#f9fbfd;
+    border: 1px solid #cfe0f5
+}
+.hed1,.hed2,.hed3{
+    font-size: 2.3em;
+    font-weight: 600;
+    margin: 2.5%;
+    color: #3b5998;
+}
+.hed1text,.hed2text,.hed3text{
+    display: flex;
+    font-size: 1.2em;
+    width: 95%;
+    color: #5c6b82;
+}
+.hed1ex,.hed2ex,.hed3ex{
+    width: 90%;
+    height: 10vh;
+    background-color:#539fe8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3%;
+    border-radius: 15px;
+    color: white;
+    font-size: 1.3em;
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 7%;
+}
+.hed3anim{
+    width: 20vw;
+    padding-top: 1vh;
+    height: 13vw;
 }
 .topic{
     padding-top: 5%;
@@ -273,9 +312,9 @@ body{
 }
 .d1,.d2,.d3,.d4{
     position: absolute;
-    width: 13px;
-    height: 13px;
-    border: 1px solid black;
+    width: 14px;
+    height: 14px;
+    border: 1.8px solid black;
     border-radius: 10px;
     left: 47vw;
     top: 68vh;
