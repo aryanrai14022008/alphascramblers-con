@@ -119,11 +119,6 @@
     width: 70%;
     padding: 5%;
 }
-#name,#mail,#contact{
-    width: 90%;
-    height: 4vh;
-    margin: 1%;
-}
 .regbut{
     display: flex;
     justify-content: center;
@@ -161,6 +156,49 @@
 }
 .d{
     display: none;
+}
+#name,#mail,#contact{
+    width: 80%;
+    height: 4vh;
+    margin: 1%;
+}
+.contacthead{
+    color: white;
+    font-size: 1.4em;
+    text-align: center;
+    font-family: "Mada", sans-serif;
+    color: black;
+    font-weight: 600;
+}
+.contactuslogo{
+    font-size: 3em;
+    position: fixed;
+    top: 75vh;
+    left: 0;
+    z-index: 10000;
+    cursor: pointer;
+}
+.contactus{
+    background-color: #b5d9fb;
+    height: 50vh;
+    width: 20vw;
+    position: fixed;
+    top: 27vh;
+    left: 5vw;
+    z-index: 1000000;
+    border-radius: 25px;
+}
+.dis{
+    display: none;
+}
+.crossct{
+    height: 5%;
+    width: 5%;
+    position: absolute;
+    right: 6%;
+    padding-top: 1%;
+    font-size: 1.2em;
+    cursor: pointer;
 }
 @media screen and (min-width: 700px) and (max-width: 1000px){
     .rightnav{

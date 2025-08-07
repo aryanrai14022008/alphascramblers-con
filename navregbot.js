@@ -51,3 +51,20 @@ window.addEventListener("scroll",()=>{
         scrolltop.classList.add("d");
     }
 })
+let contactus=document.querySelector(".contactus")
+let icon = document.querySelector(".contactuslogo")
+let crossct = document.querySelector(".crossct")
+icon.addEventListener("click",()=>{
+    contactus.classList.remove("dis");
+    header.style.opacity="0.3";
+    main.style.opacity="0.3";
+    footer.style.opacity="0.3";
+    overlay.classList.add("overlay1");
+})
+crossct.addEventListener("click",()=>{
+    contactus.classList.add("dis");
+    header.style.opacity="1";
+    main.style.opacity="1";
+    footer.style.opacity="1";
+    overlay.classList.remove("overlay1");
+})

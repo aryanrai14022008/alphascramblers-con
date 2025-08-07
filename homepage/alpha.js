@@ -4,18 +4,6 @@ let d1 = document.querySelector(".d1");
 let d2 = document.querySelector(".d2");
 let d3 = document.querySelector(".d3");
 let d4 = document.querySelector(".d4");
-let contactus=document.querySelector(".contactpopup")
-let icon = document.querySelector(".contactuslogo")
-let mainElement = document.querySelector("main");
-
-let i=1;
-icon.addEventListener("click",() => {
-    contactus.classList.remove("dis")
-    mainElement.style.opacity=0.4
-    contactus.style.opacity=1
-    }
-)
-
 function newBanner(){
     if(bannerno<5){
         banner.style.transform=`translateX(-${bannerno*100}vw)`

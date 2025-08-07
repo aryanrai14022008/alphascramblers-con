@@ -5,10 +5,9 @@
 }
 main{
     margin-top: 12vh;
-    position: relative;
 }
 body{
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 .banner{
     display: flex;
@@ -175,7 +174,6 @@ body{
     font-weight: 450;
 }
 .middle{
-    /* padding-top: 2vh; */
     padding-bottom: 2vh;
     font-size: 2.5em;
     padding-left: 2%;
@@ -189,24 +187,6 @@ body{
     font-family: "Mada", sans-serif;
     font-weight: 350;
     font-size: 1.15em;
-}
-.white{
-    display: flex;
-    height: 65vh;
-    width: 19vw;
-    font-family: "Mada", sans-serif;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.65);
-    z-index: 2000;
-    flex-direction: column;
-    padding-left: 1vw;
-}
-.green{
-    display: flex;
-    height: 65vh;
-    width: 20vw;
-    background-color:#65CDC1 ;
-    font-family: "Mada", sans-serif;
-    z-index: 1500;
 }
 .boxes8{
     width: 80vw; 
@@ -301,7 +281,6 @@ body{
     background-color: white;
     cursor: pointer;
 }
-
 .d1{
     background-color: gray;
 }
@@ -358,62 +337,4 @@ body{
     height: 110vh;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
-    /* padding-top: 2vh; */
-}
-.contactuslogo{
-    font-size: 3em;
-    position: fixed;
-    top: 75vh;
-    left: 0;
-    z-index: 10000;
-    cursor: pointer;
-}
-.contactuslogo:hover{
-    font-size: 4em;
-    position: fixed;
-    top: 75vh;
-    left: 0;
-    z-index: 1000000;
-    cursor: pointer;
-}
-.contactpopup{
-    background-color: #b5d9fb;
-    height: 50vh;
-    width: 50vw;
-    position: fixed;
-    top: 40vh;
-    left: 15vw;
-    z-index: 1000000;
-    border: solid #a2c8ed;
-    border-radius: 25px;
-}
-.dis{
-    display: none;
-}
-.blackhead{
-    background-color: rgb(7, 87, 148);
-    color: white;
-    font-weight: 700;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 3em;
-    border: solid rgb(17, 17, 17);
-    border-radius: 20px;
-}
-.textform input{
-    font-size: 2.5em;
-    width: 39vw;
-}
-.dop input{
-    font-size: 2.5em;
-    width: 39vw;
-}
-.textformedit{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 3vh;
 }
