@@ -24,7 +24,7 @@ let regbtn = document.querySelector(".login");
 let cross= document.querySelector(".cross")
 regbtn.addEventListener("click",()=>{
     register.classList.remove("regdis");
-    header.style.opacity="0.3";
+    header.style.opacity="1";
     main.style.opacity="0.3";
     footer.style.opacity="0.3";
     overlay.classList.add("overlay1");
@@ -52,19 +52,51 @@ window.addEventListener("scroll",()=>{
     }
 })
 let contactus=document.querySelector(".contactus")
-let icon = document.querySelector(".contactuslogo")
 let crossct = document.querySelector(".crossct")
-icon.addEventListener("click",()=>{
-    contactus.classList.remove("dis");
-    header.style.opacity="0.3";
-    main.style.opacity="0.3";
-    footer.style.opacity="0.3";
-    overlay.classList.add("overlay1");
-})
 crossct.addEventListener("click",()=>{
     contactus.classList.add("dis");
     header.style.opacity="1";
     main.style.opacity="1";
     footer.style.opacity="1";
     overlay.classList.remove("overlay1");
+})
+let button = document.querySelector(".contactuslogo");
+let offsetX;
+let offsetY;
+let isdragging = false;
+let hasmoved= false;
+button.addEventListener("click",(e)=>{
+    if(hasmoved){
+        e.preventDefault();
+        e.stopImmediatePropagation();
+        hasmoved=false;
+        return;
+    }
+    contactus.classList.remove("dis");
+    header.style.opacity="1";
+    main.style.opacity="0.3";
+    footer.style.opacity="0.3";
+    overlay.classList.add("overlay1");
+})
+button.addEventListener("mousedown",(e)=>{
+    hasmoved=false
+    isdragging = true;
+    offsetX = e.clientX - button.offsetLeft;
+    offsetY = e.clientY - button.offsetTop;
+    
+    button.style.cursor = "grabbing"
+})
+document.addEventListener("mousemove",(e)=>{
+    if(isdragging){
+        hasmoved=true;
+        let x = e.clientX - offsetX;
+        let y = e.clientY - offsetY;
+        
+        button.style.top = y + "px"
+        button.style.left = x + "px"
+    }
+})
+document.addEventListener("mouseup",(e)=>{
+    isdragging = false;
+    button.style.cursor = "pointer"
 })

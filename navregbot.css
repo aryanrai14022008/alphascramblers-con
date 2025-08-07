@@ -156,24 +156,27 @@
 }
 .top{
     position: fixed;
-    top: 14vh;
+    bottom: 1vh;
     right: 0.5vw;
     z-index: 10001;
     cursor: pointer;
+    background-color: gray;
+    padding: 1%;
+    font-family: "Rowdies", sans-serif;
+    font-weight: lighter;
 }
 .d{
     display: none;
 }
 #name,#mail,#contact,#namect,#contactct,#mailct{
-    width: 80%;
+    width: 90%;
     height: 4vh;
     margin: 1%;
 }
-.contacthead{
+.contacthead,.reachhead{
     color: white;
     font-size: 1.4em;
     text-align: center;
-    font-family: "Mada", sans-serif;
     color: black;
     font-weight: 600;
     margin-bottom: 5%;
@@ -183,27 +186,56 @@
     padding: 5%;
 }
 .contactuslogo{
-    height: 15vh;
-    width: 8vw;
-    font-size: 3em;
+    height: 10vh;
+    width: 5vw;
+    font-size: 2em;
     position: fixed;
     top: 75vh;
-    left: 0;
+    right: 0.5vw;
     z-index: 10000;
     cursor: pointer;
-    background-color: #E0F7FA;
-    border-radius: 100px;
+    background-color: #0D1B2A;
+    border-radius: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+.contactdata{
+    width: 25vw;
+    padding: 5%;
+}
+.callicon,.mailicon{
+    height: 10vh;
+    width: 5vw;
+    font-size: 2em;
+    background-color: #0D1B2A;
+    border-radius: 1000px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.reach{
+    padding: 5%;
+}
+.call,.mail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+    font-size: 1.2em;
+}
 .contactus{
+    font-family: "Mada", sans-serif;
     background-color: #ffffff;
-    width: 20vw;
+    width: 45vw;
     position: fixed;
-    top: 26vh;
-    left: 5vw;
+    top: 15vh;
+    left: 27.5vw;
     z-index: 1000000;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
 }
 .dis{
     display: none;
