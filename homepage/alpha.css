@@ -1,11 +1,9 @@
 *{
     margin: 0;
     padding: 0;
-    position: relative;
 }
 main{
     margin-top: 12vh;
-    position: relative;
 }
 body{
     overflow-x: hidden;
@@ -175,14 +173,13 @@ body{
     font-weight: 450;
 }
 .middle{
-    /* padding-top: 2vh; */
+    padding-top: 2vh;
     padding-bottom: 2vh;
     font-size: 2.5em;
     padding-left: 2%;
     padding-top: 5vh;
     font-family: "Mada", sans-serif;
-    font-weight: 800;
-    color: red;
+    font-weight: 600;
 }
 .boxtext{
     padding-top: 6%;
@@ -312,107 +309,4 @@ body{
 }
 .d4{
     left: 53vw;
-}
-.boxline1{
-    display: flex;
-    justify-content: space-evenly;
-}
-.boxline{
-    width: 45vw;
-    height: 40vh;
-    /* border: solid; */
-    border-radius: 20px;
-    background-color:white;
-    color:black;
-    opacity: 0.7;
-}
-.boxmain{
-    display: flex;
-    flex-direction: column;
-    gap: 5vh;
-}
-.boldhead{
-     font-family: "Mada", sans-serif;
-     font-size: 2.4em;
-     color: rgb(0, 4, 16);
-     display: flex;
-     justify-content: center;
-     padding-top: 1vh;
-}
-.intext{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 1.6em;
-    color: rgb(2, 1, 17);
-    padding-top: 1vh;
-    font-family: "Mada", sans-serif;
-}
-.whybig{
-    margin: 2%;
-    border: solid white;
-    border-radius: 20px;
-    background-color: rgb(197, 222, 242);
-    height: 110vh;
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    /* padding-top: 2vh; */
-}
-.contactuslogo{
-    font-size: 3em;
-    position: fixed;
-    top: 75vh;
-    left: 0;
-    z-index: 10000;
-    cursor: pointer;
-}
-.contactuslogo:hover{
-    font-size: 4em;
-    position: fixed;
-    top: 75vh;
-    left: 0;
-    z-index: 1000000;
-    cursor: pointer;
-}
-.contactpopup{
-    background-color: #b5d9fb;
-    height: 50vh;
-    width: 50vw;
-    position: fixed;
-    top: 40vh;
-    left: 15vw;
-    z-index: 1000000;
-    border: solid #a2c8ed;
-    border-radius: 25px;
-}
-.dis{
-    display: none;
-}
-.blackhead{
-    background-color: rgb(7, 87, 148);
-    color: white;
-    font-weight: 700;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 3em;
-    border: solid rgb(17, 17, 17);
-    border-radius: 20px;
-}
-.textform input{
-    font-size: 2.5em;
-    width: 39vw;
-}
-.dop input{
-    font-size: 2.5em;
-    width: 39vw;
-}
-.textformedit{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 3vh;
 }
