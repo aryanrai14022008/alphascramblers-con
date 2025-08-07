@@ -316,25 +316,15 @@ body{
 .boxline1{
     display: flex;
     justify-content: space-evenly;
-
 }
 .boxline{
     width: 45vw;
     height: 40vh;
     /* border: solid; */
     border-radius: 20px;
-background-color:white;
-color:black;
-
-
-
-
-
-
-
-
-
- opacity: 0.7;
+    background-color:white;
+    color:black;
+    opacity: 0.7;
 }
 .boxmain{
     display: flex;
@@ -350,7 +340,6 @@ color:black;
      padding-top: 1vh;
 }
 .intext{
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -359,7 +348,6 @@ color:black;
     color: rgb(2, 1, 17);
     padding-top: 1vh;
     font-family: "Mada", sans-serif;
-
 }
 .whybig{
     margin: 2%;
@@ -371,22 +359,18 @@ color:black;
     flex-direction: column;
     /* justify-content: center; */
     /* padding-top: 2vh; */
-    
 }
 .contactuslogo{
     font-size: 3em;
     position: fixed;
-    
     top: 75vh;
     left: 0;
     z-index: 10000;
-    
     cursor: pointer;
 }
 .contactuslogo:hover{
     font-size: 4em;
     position: fixed;
-    
     top: 75vh;
     left: 0;
     z-index: 1000000;
@@ -402,8 +386,6 @@ color:black;
     z-index: 1000000;
     border: solid #a2c8ed;
     border-radius: 25px;
-    
-    
 }
 .dis{
     display: none;
@@ -422,16 +404,13 @@ color:black;
 .textform input{
     font-size: 2.5em;
     width: 39vw;
-    
 }
 .dop input{
     font-size: 2.5em;
     width: 39vw;
-    
 }
 .textformedit{
     display: flex;
-    
     justify-content: center;
     align-items: center;
     flex-direction: column;

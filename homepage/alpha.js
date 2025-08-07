@@ -13,10 +13,7 @@ icon.addEventListener("click",() => {
     contactus.classList.remove("dis")
     mainElement.style.opacity=0.4
     contactus.style.opacity=1
-
-
-  
-}
+    }
 )
 
 function newBanner(){
