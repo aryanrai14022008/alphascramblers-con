@@ -99,4 +99,12 @@ document.addEventListener("mousemove",(e)=>{
 document.addEventListener("mouseup",(e)=>{
     isdragging = false;
     button.style.cursor = "pointer"
+    let screenmiddle = window.innerWidth/2;
+    let rect = button.getBoundingClientRect();
+    if(rect.left<screenmiddle){
+        button.style.left = "10px"
+    }
+    else{
+        button.style.left = (window.innerWidth-rect.width-20) + "px";
+    }
 })
