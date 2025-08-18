@@ -79,10 +79,27 @@ body{
     margin-left: 4.5%;
     list-style-type:square;
 }
-.exams{
+.b{
+    background-color: #a7d6f1;
+    padding: 1%;
+    border-radius: 15px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0.5%;
+    color: #05445E;
+}
+.b:hover{
+    background-color: #76bfe3;
+}
+.fc1,.fc2,.fc3,.fc4,.fc5,.fc6,.fc7,.fc8{
+    display: none;
+}
+.fc1n,.fc2n,.fc3n,.fc4n,.fc5n,.fc6n,.fc7n,.fc8n{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 2%;
+    scroll-margin-top: 9vh;
 }
 .cnf{
     background-color: #e6f0fa;
@@ -111,31 +128,6 @@ body{
 }
 .cnf td:nth-child(4){
     width: 12vw;
-}
-.career{
-    display: flex;
-}
-.career1, .career2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.career img{
-    width: 42vw;
-    padding: 1vw;
-}
-.career1 div{
-    height: 60vh;
-    border: 1px solid black;
-    margin: 1vw;
-}
-.career2 div{
-    height: 60vh;
-    border: 1px solid black;
-    margin: 1vw;
-}
-.career .head1{
-    font-size: 1.6em;
 }
 .s5PCB{
     margin: 1vw;
