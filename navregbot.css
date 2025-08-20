@@ -26,11 +26,11 @@
 }
 .image{
     display: flex;
-    height: 100%;
+    height: auto;
     width: auto;
 }
 .img{
-    height: 100%;
+    height: auto;
     width: auto;
 }
 .home,.login,.help,.about{
@@ -251,7 +251,7 @@
     color: white;
 }
 @media screen and (min-width: 700px) and (max-width: 1000px){
-    .rightnav{
+.rightnav{
     display: flex;
     align-items: center;
     width: 65%;
@@ -266,7 +266,7 @@
 .navbar{
     height: 12vh;
     width: 100%;
-    background-color: rgb(230, 224, 224);
+    background-color: #f4f9fd;
     display: flex;
     align-items: center;
     font-family: "Rowdies", sans-serif;
@@ -287,18 +287,41 @@
     .navcon{
         display:flex;
         align-items: center;
-        padding-left: 58%;
         padding-right: 1%;
+        position: absolute;
+        right: 8%;
+        position: fixed;
     }
     .navcon-ele-new{
         display: flex;
         width: 100%;
         flex-direction: column;
-        background-color: white;
+        background-color: #f4f9fd;
         position: fixed;
         animation-name: navconele;
         animation-duration: 1s;
         z-index: 1000;
+        position: fixed;
+    }
+    .image,.img{
+        width: 100%;
+        height: 100%;
+    }
+    .navbar{
+        height: 8vh;
+        position: fixed;
+    }
+    main{
+        margin-top: 8vh;
+    }
+    .bottom{
+        margin-top: 2vh;
+        height: 30vh;
+    }
+    .contactuslogo{
+        width: 11vw;
+        height: 5.1vh;
+        font-size: 1em;
     }
 }
 @keyframes navconele{
